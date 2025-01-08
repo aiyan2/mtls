@@ -20,7 +20,7 @@ client_key = './certs/mutual-tls/client/client.key'    # Client private key
 # Routes
 @app.route('/')
 def hello():
-    return "Hello Fortinet!"
+    return "Hello Mars!"
 
 @app.route('/index.html')
 def hello2():
@@ -28,7 +28,7 @@ def hello2():
     <!DOCTYPE html>
     <html lang="en">
     <body>
-        <h1>Hello Fortinet!</h1>       
+        <h1>Hello Mars!</h1>       
     </body>
     </html>
     """
